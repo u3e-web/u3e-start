@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang=de>
+
+<head>
+	<meta charset=utf-8>
+	<meta name="description" content="Digital Assets: Landschaften, Reisen,
+		Bilder, Tools und mehr">
+	<meta name="author" content="u w e @ u 3 e . d e">
+	<meta name="keywords" content="Reisen, Fotografie, HTML5">
+
+	<title>u3e - Digital Assets</title>
+
+	<script>
+		// document.createElement('header');
+		// document.createElement('nav');
+		// document.createElement('article');
+		// document.createElement('footer');
+
+    function setStyleSheet(url){
+      var stylesheet = document.getElementById('stylesheet');
+      stylesheet.setAttribute('href', url);
+    }
+	</script>
+
+	<link rel="stylesheet" type="text/css" href="css/master_00.css">
+
+</head>
+
+<!-- give body an identifier for some unknown reasons -->
+<body id="full-page">
+
+	<!-- The content is to place in a page-wrapper, so we can apply various
+	designs with one, two or hree columns (or even more if applicable) -->
+	<div class="page-wrapper">
+
+		<!-- A first section can be intro to explain what it is about -->
+		<section class="intro" id="u3e-intro">
+
+			<!-- Header is HTML5, assign banner role for automated readers -->
+			<header role="banner">
+				<h1>u3e - Digital Assets</h1>
+				<h2>Reisen, Fotografie und mehr</h2>
+			</header>
+
+			<!-- A first summary describes the purpose and target of these pages -->
+			<div class="summary" id="u3e-summary" role="article">
+				<h3>&Uuml;berblick</h3>
+				<p>Meine verschiedenen Hobbies werden auf diesen Seiten dargestellt
+					bzw. dokumentiert. Insbesondere die Kombination von Reisen und
+					Fotografie erscheint mir sehr reizvoll, dar&uuml;ber hinaus aber
+					auch die Vertiefung in die verschiedenen Fachgebiete und Techniken.
+				</p>
+			</div> <!-- End of div "summary" -->
+
+			<div class="preamble" id="u3e-preamble" role="article">
+				<h3>Zweck</h3>
+				<p>Die Seiten verwende ich f&uuml;r meine pers&ouml;nlichen
+					Zwecke wie Lernen, Visualisieren und Archivierung, habe aber nix
+					dagegen, wenn auch andere Personen Nutzen daraus ziehen - solange
+					es nicht zu meinen Lasten geht (insbesondere was Zeit, Ansehen
+					und Kosten betrifft).
+				</p>
+			</div> <!-- end of div "preamble" -->
+		</section> <!-- end of section intro -->
+
+		<!-- Now we find the main page content -->
+		<div class="main-supporting" id="u3e-supporting" role="main">
+			<div class="background-info" id="u3e-background-info" role="article">
+				<h3>Hintergrund</h3>
+				<p>Die Erstellung und Pflege der Seiten basiert auf HTML5 mit CSS3, in
+					die ich mich Anfang 2021 einarbeite (wiederholt, m&ouml;chte man
+					sagen).</p>
+			</div> <!-- end of div "background-info" -->
+
+			<div class="disclaimer" id="u3e-disclaimer" role="article">
+				<h3>Ausschluss</h3>
+				<p>Links zu anderen Seiten stellen eine Vereinfachung dar, die es zum
+					Zeitpunkt der Aufnahme in meine Seiten wert war, kommuniziert zu
+					werden. Leider ist es nicht immer m&ouml;glich, die
+					Ver&auml;nderungen im Internet fehlerfrei nachzuziehen oder auch
+					die Richtigkeit des Inhalts zu &uuml;berpr&uuml;fen.
+				</p>
+				<p>Aus diesem Grunde &uuml;bernehme ich keinerlei Verantwortung
+					f&uuml;r etwaige Sch&auml;den beliebiger Art - insbesondere, weil
+					ich f&uuml;r meinen Teil Seiten verletzender, diskriminierender
+					und krimineller Art verabscheue.
+				</p>
+			</div> <!-- end of div "disclaimer" -->
+
+			<div class="final" id="u3e-prolog" role="article">
+				<h3>Schlusswort</h3>
+				<p>Sollte ich was vergessen haben, darf sich der Leser dies gerne dazu
+					denken ;-)</p>
+			</div> <!-- end of div "prolog" -->
+		</div> <!-- end of div "main supporting" -->
+
+		<nav class="navigation" id="u3e-navigation" role="navigation">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="Bilder/index.html">Bilder</a></li>
+				<li><a href="Computer/index.html">Computer</a></li>
+				<li><a href="PickUp/index.html">PickUp</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>
+				<!--			<li><a href="">Design-Auswahl: </a></li>
+							<li><a onclick="setStyleSheet('./css/master_00.css')" href="#">Standard</a></li>
+							<li><a onclick="setStyleSheet('./css/master_01.css')" href="#">Variante 1</a></li>
+						-->
+			</ul>
+		</nav>
+
+		<!--	<div class="Design">
+			Design-Auswahl:
+			<a onclick="setStyleSheet('./css/master_00.css')" href="#">Standard</a>
+			<a onclick="setStyleSheet('./css/master_01.css')" href="#">Variante 1</a>
+		</div> -->
+
+		<footer>
+			<small>Gru&szlig; an Alle...&nbsp;&nbsp;&nbsp;&copy;2021 Uwe Maier
+				&nbsp;&nbsp;&nbsp;validiert durch W3C:</small>
+			<a href="http://validator.w3.org/check/referer" title="Check the validity of this site&#8217;s HTML" class="u3e-validate-html">HTML</a>
+			<a href="http://jigsaw.w3.org/css-validator/check/referer" title="Check the validity of this site&#8217;s CSS" class="u3e-validate-css">CSS</a>
+			<!-- <a href="http://jigsaw.w3.org/css-validator/check/referer">
+				<img style="border:0;width:88px;height:31px"
+				src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+				alt="CSS ist valide!" /> -->
+			</a>
+		</footer>
+
+	</div> <!-- end of section "page-wrapper" -->
+
+</body>
+</html>
